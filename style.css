@@ -1,0 +1,78 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.main-content {
+  height: 90vh;
+}
+
+#navbarHeader {
+  background-color: #082c46 !important;
+  color: #b3b3b3 !important;
+}
+
+.bg-blue {
+  background-color: #082c46 !important;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.a-link {
+  color: #082c46 !important;
+}
+
+.b-link {
+  color: #b3b3b3 !important;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.e-container {
+  max-width: 55rem !important;
+}
